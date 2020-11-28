@@ -1,7 +1,7 @@
 {
   "publisher": "qub",
   "project": "createproject-java",
-  "version": "1",
+  "version": "2",
   "java": {
     "mainClass": "qub.QubCreateProject",
     "shortcutName": "qub-createproject",

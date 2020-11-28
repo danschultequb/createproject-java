@@ -108,7 +108,7 @@ public interface QubCreateProjectRun
                 else
                 {
                     verbose.write("Creating README.md file (" + readmeMdFile + ")...").await();
-                    readmeMdFile.setContentsAsString("#" + ProjectSignature.create(publisher, project, version).toStringIgnoreVersion()).await();
+                    readmeMdFile.setContentsAsString("# " + ProjectSignature.create(publisher, project, version).toStringIgnoreVersion() + "\n").await();
                     verbose.writeLine(" Done.");
                 }
 
